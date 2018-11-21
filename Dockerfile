@@ -1,5 +1,5 @@
 # Dockerfile
-FROM node:8
+FROM node:8-alpine
 WORKDIR /opt/cboard-api/
 COPY . /opt/cboard-api/
 
